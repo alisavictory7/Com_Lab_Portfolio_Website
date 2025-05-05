@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Will S.</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="author" content="templatesjungle" />
+	<meta name="keywords" content="website template" />
+	<meta name="description" content="website template" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="css/vendor.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet" />
+</head>
+
+<body class="bg-body homepage post-template">
+	<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+		<defs>
+			<symbol id="clock" viewBox="0 0 24 24">
+				<g fill="none">
+					<path
+						d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+					<path fill="currentColor"
+						d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2m0 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16m0 2a1 1 0 0 1 .993.883L13 7v4.586l2.707 2.707a1 1 0 0 1-1.32 1.497l-.094-.083l-3-3a1 1 0 0 1-.284-.576L11 12V7a1 1 0 0 1 1-1" />
+				</g>
+			</symbol>
+			<symbol id="folder" viewBox="0 0 24 24">
+				<path fill="currentColor"
+					d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h6l2 2h8q.825 0 1.413.588T22 8v10q0 .825-.587 1.413T20 20zm0-2h16V8h-8.825l-2-2H4zm0 0V6z" />
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="menu" viewBox="0 0 24 24">
+				<path fill="currentColor"
+					d="M4 6a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1m0 12a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1m7-7a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z" />
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="instagram" viewBox="0 0 24 24">
+				<path fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"
+					d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="facebook" viewBox="0 0 24 24">
+				<path fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z" />
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="twitter" viewBox="0 0 24 24">
+				<path fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"
+					fill-rule="evenodd"
+					d="M15.022 3.343c.508-.087 1.077-.116 1.613-.025a4.85 4.85 0 0 1 2.54 1.273c.456.01.905-.08 1.302-.208a5.4 5.4 0 0 0 1.098-.501l.009-.006a.75.75 0 0 1 1.042 1.037c-.207.315-.496.877-.819 1.507l-.155.301c-.185.36-.375.724-.552 1.036c-.111.196-.23.395-.35.567v.274A12.34 12.34 0 0 1 8.287 21.03a12.3 12.3 0 0 1-6.694-1.97a.75.75 0 0 1 .5-1.375q.45.055.905.055a7.5 7.5 0 0 0 3.128-.696a4.86 4.86 0 0 1-2.61-2.923a.75.75 0 0 1 .147-.722l.01-.01A4.85 4.85 0 0 1 2.05 9.793V9.74a.75.75 0 0 1 .553-.724A4.84 4.84 0 0 1 2.09 6.84a4.9 4.9 0 0 1 .65-2.442a.75.75 0 0 1 1.232-.1a10.9 10.9 0 0 0 7.006 3.93a4.85 4.85 0 0 1 2.562-4.406c.402-.214.934-.385 1.482-.479m-11.28 7.548a3.35 3.35 0 0 0 2.503 2.164a.75.75 0 0 1 .072 1.453q-.409.124-.834.173a3.36 3.36 0 0 0 2.59 1.3a.75.75 0 0 1 .45 1.339a9 9 0 0 1-3.548 1.695a10.8 10.8 0 0 0 3.313.515h.009A10.84 10.84 0 0 0 19.25 8.607v-.535a.75.75 0 0 1 .186-.495c.07-.079.19-.261.36-.56c.16-.282.338-.622.523-.981l.033-.066a5 5 0 0 1-1.593.097a.75.75 0 0 1-.47-.237a3.35 3.35 0 0 0-1.904-1.032a3.4 3.4 0 0 0-1.11.025a3.6 3.6 0 0 0-1.028.323a3.35 3.35 0 0 0-1.678 3.74a.75.75 0 0 1-.767.925a12.4 12.4 0 0 1-8.149-3.627a3.4 3.4 0 0 0-.063.657v.002a3.34 3.34 0 0 0 1.486 2.785A.75.75 0 0 1 4.64 11a5 5 0 0 1-.897-.11"
+					clip-rule="evenodd" />
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="pinterest" viewBox="0 0 15 15">
+				<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					d="m4.5 13.5l3-7m-3.236 3a2.989 2.989 0 0 1-.764-2V7A3.5 3.5 0 0 1 7 3.5h1A3.5 3.5 0 0 1 11.5 7v.5a3 3 0 0 1-3 3a2.081 2.081 0 0 1-1.974-1.423L6.5 9m1 5.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14Z" />
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="basketball" viewBox="0 0 24 24">
+				<g fill="none" stroke="currentColor" stroke-width="2">
+					<path
+						d="M3.34 17c2.76 4.783 8.876 6.42 13.66 3.66a9.96 9.96 0 0 0 4.196-4.731a9.99 9.99 0 0 0-.536-8.93a9.99 9.99 0 0 0-7.465-4.928A9.96 9.96 0 0 0 7 3.339C2.217 6.101.578 12.217 3.34 17Z" />
+					<path stroke-linecap="round" d="M16.95 20.573S16.01 13.982 14 10.5S7.05 3.427 7.05 3.427" />
+					<path stroke-linecap="round"
+						d="M21.864 12.58c-5.411-1.187-12.805 3.768-14.287 8.238m8.837-17.609c-1.488 4.42-8.74 9.303-14.125 8.243" />
+				</g>
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="skype" viewBox="0 0 24 24">
+				<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					color="currentColor">
+					<path d="M15 10c0-1.105-1.343-2-3-2s-3 .895-3 2s1.343 2 3 2s3 .895 3 2s-1.343 2-3 2s-3-.895-3-2" />
+					<path
+						d="M18 20a4 4 0 0 0 2.954-6.697c-.675-.739-.898-1.042-.986-2.026a7.97 7.97 0 0 0-2.311-4.934a8 8 0 0 0-8.054-1.977c-.943.295-1.31.205-2.254-.133a4 4 0 0 0-4.303 6.464c.675.739.898 1.042.986 2.026a7.97 7.97 0 0 0 2.311 4.934a8 8 0 0 0 8.054 1.977c.943-.295 1.31-.205 2.254.133c.421.15.875.233 1.349.233" />
+				</g>
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="linkedin" viewBox="0 0 24 24">
+				<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+					stroke-width="1.5"
+					d="M4.5 9.5H4c-.943 0-1.414 0-1.707.293S2 10.557 2 11.5V20c0 .943 0 1.414.293 1.707S3.057 22 4 22h.5c.943 0 1.414 0 1.707-.293S6.5 20.943 6.5 20v-8.5c0-.943 0-1.414-.293-1.707S5.443 9.5 4.5 9.5m2-5.25a2.25 2.25 0 1 1-4.5 0a2.25 2.25 0 0 1 4.5 0m5.826 5.25H11.5c-.943 0-1.414 0-1.707.293S9.5 10.557 9.5 11.5V20c0 .943 0 1.414.293 1.707S10.557 22 11.5 22h.5c.943 0 1.414 0 1.707-.293S14 20.943 14 20v-3.5c0-1.657.528-3 2.088-3c.78 0 1.412.672 1.412 1.5v4.5c0 .943 0 1.414.293 1.707s.764.293 1.707.293h.499c.942 0 1.414 0 1.707-.293c.292-.293.293-.764.293-1.706L22 14c0-2.486-2.364-4.5-4.703-4.5c-1.332 0-2.52.652-3.297 1.673c0-.63 0-.945-.137-1.179a1 1 0 0 0-.358-.358c-.234-.137-.549-.137-1.179-.137"
+					color="currentColor" />
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="arrow-right" viewBox="0 0 24 24">
+				<path fill="currentColor"
+					d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76Z" />
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="folder" viewBox="0 0 18 18" fill="none">
+				<path
+					d="M14.0946 4.04689H9.56953L9.33895 3.3259C9.18947 2.90285 8.9122 2.53678 8.54555 2.27842C8.1789 2.02006 7.74102 1.8822 7.29258 1.88393H4.00687C3.43356 1.88393 2.88374 2.11181 2.47835 2.51744C2.07296 2.92308 1.84521 3.47324 1.84521 4.04689V13.4197C1.84521 13.9934 2.07296 14.5435 2.47835 14.9492C2.88374 15.3548 3.43356 15.5827 4.00687 15.5827H14.0946C14.6679 15.5827 15.2177 15.3548 15.6231 14.9492C16.0285 14.5435 16.2562 13.9934 16.2562 13.4197V6.20985C16.2562 5.6362 16.0285 5.08604 15.6231 4.68041C15.2177 4.27477 14.6679 4.04689 14.0946 4.04689ZM14.8151 13.4197C14.8151 13.6109 14.7392 13.7943 14.6041 13.9295C14.469 14.0648 14.2857 14.1407 14.0946 14.1407H4.00687C3.81577 14.1407 3.63249 14.0648 3.49736 13.9295C3.36223 13.7943 3.28632 13.6109 3.28632 13.4197V4.04689C3.28632 3.85567 3.36223 3.67229 3.49736 3.53707C3.63249 3.40186 3.81577 3.3259 4.00687 3.3259H7.29258C7.44364 3.32551 7.591 3.37264 7.71384 3.46061C7.83667 3.54859 7.92877 3.67297 7.97711 3.81617L8.3662 4.99859C8.41454 5.1418 8.50664 5.26618 8.62947 5.35415C8.75231 5.44213 8.89967 5.48925 9.05073 5.48886H14.0946C14.2857 5.48886 14.469 5.56483 14.6041 5.70004C14.7392 5.83525 14.8151 6.01863 14.8151 6.20985V13.4197Z"
+					fill="black" />
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" id="clock" viewBox="0 0 18 18" fill="none">
+				<path
+					d="M11.0931 9.19042L9.58134 8.3173V5.12838C9.58134 4.93716 9.50543 4.75377 9.3703 4.61856C9.23517 4.48335 9.05189 4.40739 8.86079 4.40739C8.66969 4.40739 8.48641 4.48335 8.35128 4.61856C8.21615 4.75377 8.14024 4.93716 8.14024 5.12838V8.73331C8.14024 8.85987 8.17354 8.9842 8.23678 9.0938C8.30002 9.2034 8.39098 9.29441 8.50051 9.35769L10.3725 10.4392C10.4545 10.4873 10.5452 10.5186 10.6393 10.5315C10.7335 10.5444 10.8292 10.5385 10.9211 10.5142C11.013 10.4899 11.0991 10.4477 11.1746 10.3899C11.2501 10.3322 11.3134 10.26 11.3609 10.1777C11.4084 10.0953 11.4392 10.0044 11.4515 9.91012C11.4637 9.81583 11.4572 9.72004 11.4323 9.62828C11.4074 9.53652 11.3646 9.45059 11.3064 9.37544C11.2482 9.3003 11.1757 9.23741 11.0931 9.19042ZM8.86079 1.52344C7.43567 1.52344 6.04256 1.94629 4.85762 2.73852C3.67268 3.53075 2.74913 4.65678 2.20376 5.97421C1.6584 7.29165 1.5157 8.74131 1.79373 10.1399C2.07175 11.5385 2.75801 12.8231 3.76572 13.8315C4.77343 14.8398 6.05733 15.5265 7.45506 15.8047C8.8528 16.0828 10.3016 15.9401 11.6182 15.3944C12.9349 14.8487 14.0602 13.9246 14.852 12.7389C15.6437 11.5532 16.0663 10.1593 16.0663 8.73331C16.0642 6.82178 15.3044 4.98914 13.9535 3.63748C12.6027 2.28582 10.7712 1.52554 8.86079 1.52344ZM8.86079 14.5012C7.7207 14.5012 6.60621 14.1629 5.65826 13.5291C4.7103 12.8954 3.97146 11.9945 3.53517 10.9406C3.09887 9.88665 2.98472 8.72691 3.20714 7.60805C3.42956 6.48919 3.97857 5.46145 4.78474 4.65479C5.5909 3.84814 6.61802 3.2988 7.73621 3.07624C8.8544 2.85369 10.0134 2.96791 11.0667 3.40447C12.12 3.84103 13.0203 4.58031 13.6537 5.52884C14.2871 6.47737 14.6252 7.59253 14.6252 8.73331C14.6233 10.2625 14.0154 11.7284 12.9347 12.8097C11.8541 13.891 10.389 14.4993 8.86079 14.5012Z"
+					fill="black" />
+			</symbol>
+		</defs>
+	</svg>
+
+	<a class="menu-btn"><span></span></a>
+
+	<div class="container-fluid">
+
+		<header id="header-nav" class="col-lg-2 position-fixed px-5 bg-white h-100">
+			<div class="header-wrap d-flex flex-column justify-content-between h-100">
+				<div class="navigation">
+					<div class="site-logo my-5 pb-5">
+						<a href="index.html">
+							<img src="images/main-logo.png" alt="logo" class="img-fluid" />
+						</a>
+					</div>
+
+					<nav id="one-page-menu" class="vertical-menu my-5">
+						<ul class="menu-list list-unstyled">
+							<li class="pb-3">
+								<a href="index.html" class="nav-link text-uppercase">Home</a>
+							</li>
+							<li class="pb-3">
+								<a href="portfolio-masonry.html" class="nav-link text-uppercase">About</a>
+							</li>
+							<li class="pb-3">
+								<a href="portfolio-masonry.html" class="nav-link text-uppercase">Portraits</a>
+							</li>
+							<li class="pb-3">
+								<a href="portfolio-masonry.html" class="nav-link text-uppercase">Fashion</a>
+							</li>
+							<li class="pb-3">
+								<a href="contact.html" class="nav-link text-uppercase">Contact</a>
+							</li>
+							<li>
+								<a class="nav-link btn-toggle d-flex justify-content-between align-items-center collapsed text-uppercase"
+									data-bs-toggle="collapse" data-bs-target="#pages-collapse" aria-expanded="false">
+									Pages
+								</a>
+								<div id="pages-collapse" class="collapse">
+									<ul class="list-unstyled py-3">
+										<li>
+											<a href="blog.html">Blog <span class="badge bg-primary">PRO</span></a>
+										</li>
+										<li>
+											<a href="single-post.html">Single Post
+												<span class="badge bg-primary">PRO</span></a>
+										</li>
+										<li>
+											<a href="portfolio-masonry.html">Portfolio Masonry
+												<span class="badge bg-primary">PRO</span></a>
+										</li>
+										<li>
+											<a href="single-portfolio.html">Single Portfolio
+												<span class="badge bg-primary">PRO</span></a>
+										</li>
+										<li>
+											<a href="contact.html">Contact <span class="badge bg-primary">PRO</span></a>
+										</li>
+										<li>
+											<a href="team.html">My Team <span class="badge bg-primary">PRO</span></a>
+										</li>
+										<li>
+											<a href="styles.html">Styles <span class="badge bg-primary">PRO</span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<div>
+								<a href="https://templatesjungle.gumroad.com/l/will-fashion-photographer-free-bootstrap-html-website-template"
+									target="_blank"
+									class="btn btn-dark get-pro text-uppercase rounded-5 py-3 px-4 mt-3">Get Pro
+									<svg width="24" height="24" viewBox="0 0 24 24" class="ps-1">
+										<use xlink:href="#cart"></use>
+									</svg>
+								</a>
+							</div>
+						</ul>
+					</nav>
+				</div>
+				<div class="mt-5">
+					<div class="email-links">
+						<a href="mailto:contact@yoursite.com"
+							class="py-3 my-3 border-bottom border-black d-flex">contact@yoursite.com</a>
+					</div>
+					<ul class="list-unstyled d-flex justify-content-start flex-wrap gap-2">
+						<li>
+							<a href="#" class="fw-bold pe-1 social-link">
+								<svg width="24" height="24" viewBox="0 0 24 24">
+									<use xlink:href="#facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="fw-bold pe-1 social-link">
+								<svg width="24" height="24" viewBox="0 0 24 24">
+									<use xlink:href="#instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="fw-bold pe-1 social-link">
+								<svg width="24" height="24" viewBox="0 0 24 24">
+									<use xlink:href="#twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="fw-bold pe-1 social-link">
+								<svg width="24" height="24" viewBox="0 0 24 24">
+									<use xlink:href="#skype"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="fw-bold pe-1 social-link">
+								<svg width="24" height="24" viewBox="0 0 24 24">
+									<use xlink:href="#linkedin"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="fw-bold pe-1 social-link">
+								<svg width="24" height="24" viewBox="0 0 24 24">
+									<use xlink:href="#basketball"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<main class="col-lg-10 offset-lg-2">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+
+						<section class="pt-5 mt-5" data-aos="fade-up">
+							<div class="post-meta d-flex gap-3 my-4">
+								<span class="post-category">
+									<svg width="16" height="16" viewBox="0 0 24 24">
+										<use xlink:href="#folder"></use>
+									</svg>
+									Business </span>
+								<span class="meta-day">
+									<svg width="16" height="16" viewBox="0 0 24 24">
+										<use xlink:href="#clock"></use>
+									</svg>12-03-2021 </span>
+							</div>
+							<h1 class="display-4 txt-fx slide-up">Best rules to follow for achieving business goals</h1>
+							<img src="images/single-post-image.jpg" alt="single post" class="img-fluid my-4">
+						</section>
+
+						<article class="post-item" data-aos="fade-up" data-aos-delay="100">
+
+							<div class="post-content py-5">
+								<div class="post-description">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur facilisis
+										vivamus massa magna. Blandit mauris libero condimentum commodo morbi consectetur
+										sociis convallis sit. Magna diam amet justo sed vel dolor et volutpat integer.
+										Iaculis sit sapien hac odio elementum egestas neque. Adipiscing purus euismod
+										orci sem amet, et. Turpis erat ornare nisi laoreet est euismod.</p>
+									<p>Sit suscipit tortor turpis sed fringilla lectus facilisis amet. Ipsum, amet dolor
+										curabitur non aliquet orci urna volutpat. Id aliquam neque, ut vivamus sit
+										imperdiet enim, lacus, vel. Morbi arcu amet, nulla fermentum vitae mattis arcu
+										mi convallis. Urna in sollicitudin in vestibulum erat. Turpis faucibus augue
+										ipsum, at aliquam. Cras sagittis tellus nunc integer vitae neque bibendum eget.
+										Tempus malesuada et pellentesque maecenas. Sociis porttitor elit tincidunt
+										tellus sit ornare. Purus ut quis sed venenatis eget ut ipsum, enim lacus.
+										Praesent imperdiet vitae eu, eu tincidunt nunc integer sit.</p>
+									<figure class="d-flex float-end m-md-5">
+										<img src="images/banner-image.jpg" alt="post-image" class="img-fluid mb-4">
+									</figure>
+									<blockquote>“Sit suscipit tortor turpis sed fringilla lectus facilisis amet. Ipsum,
+										amet dolor curabitur non aliquet orci urna volutpat. Id aliquam neque, ut
+										vivamus sit imperdiet enim, lacus, vel.</blockquote>
+									<h4>Consectetur Facilisis Vivamus</h4>
+									<ul class="inner-list">
+										<li>Blandit mauris libero condimentum commodo sociis convallis sit.</li>
+										<li>Magna diam amet justo sed vel dolor et volutpat integer.</li>
+										<li>Laculis sit sapien hac odio elementum egestas neque.</li>
+									</ul>
+									<p>Morbi arcu amet, nulla fermentum vitae mattis arcu mi convallis. Urna in
+										sollicitudin in vestibulum erat. Turpis faucibus augue ipsum, at aliquam. Cras
+										sagittis tellus nunc integer vitae neque bibendum eget. Tempus malesuada et
+										pellentesque maecenas. Sociis porttitor elit tincidunt tellus sit ornare. Purus
+										ut ipsum, enim lacus. Praesent imperdiet vitae eu, eu tincidunt nunc integer
+										sit.</p>
+									<p>Tortor diam dignissim amet, in interdum aliquet. Magnis dictum et eros purus
+										fermentum, massa ullamcorper sit sollicitudin. Nascetur libero elementum
+										adipiscing mauris maecenas et magna. Etiam nec, rutrum a diam lacus, nunc
+										integer etiam. Mattis pulvinar non viverra donec pellentesque. Odio mi consequat
+										libero dolor. Porta ut diam lobortis eget leo, lectus. Nunc tempus feugiat massa
+										laoreet ultrices diam magna quam. Congue auctor auctor luctus neque. Enim lorem
+										ultrices diam donec. Sed id placerat consectetur faucibus.</p>
+									<h4>Velit, praesent pharetra malesuada</h4>
+									<p>Id pulvinar amet. Consequat potenti mollis massa iaculis et, dolor, eget lectus.
+										Aliquam pellentesque molestie felis fames sed eget non euismod eget. Et eget
+										ullamcorper urna, elit ac diam tellus viverra lacus.</p>
+									<p>Tortor diam dignissim amet, in interdum aliquet. Magnis dictum et eros purus
+										fermentum, massa ullamcorper sit sollicitudin. Nascetur libero elementum
+										adipiscing mauris maecenas et magna. Etiam nec, rutrum a diam lacus, nunc
+										integer etiam. Mattis pulvinar non viverra donec pellentesque. Odio mi consequat
+										libero dolor. Porta ut diam lobortis eget leo, lectus.</p>
+									<p>Velit, praesent pharetra malesuada id pulvinar amet. Consequat potenti mollis
+										massa iaculis et, dolor, eget lectus. Aliquam pellentesque molestie felis fames
+										sed eget non euismod eget. Et eget ullamcorper urna, elit ac diam tellus viverra
+										lacus.</p>
+									<p>Tortor diam dignissim amet, in interdum aliquet. Magnis dictum et eros purus
+										fermentum, massa ullamcorper sit sollicitudin. Nascetur libero elementum
+										adipiscing mauris maecenas et magna. Etiam nec, rutrum a diam lacus, nunc
+										integer etiam. Mattis pulvinar non viverra donec pellentesque. Odio mi consequat
+										libero dolor. Porta ut diam lobortis eget leo, lectus.</p>
+									<div class="post-bottom-link d-lg-flex justify-content-between">
+										<div class="block-tag">
+											<ul class="list-unstyled d-flex gap-2">
+												<li>
+													<a href="#" class="btn btn-light">Denim</a>
+												</li>
+												<li>
+													<a href="#" class="btn btn-light">Trending</a>
+												</li>
+												<li>
+													<a href="#" class="btn btn-light">Clothing</a>
+												</li>
+											</ul>
+										</div>
+										<div class="block-social-links d-lg-flex align-items-baseline">
+											<div class="element-title text-uppercase">Share:</div>
+											<ul class="list-unstyled d-flex gap-2">
+												<li>
+													<a href="#" class="btn btn-light">Facebook</a>
+												</li>
+												<li>
+													<a href="#" class="btn btn-light">Twitter</a>
+												</li>
+												<li>
+													<a href="#" class="btn btn-light">Youtube</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div id="single-post-navigation" class="mt-5">
+									<div class="post-navigation d-flex justify-content-between">
+										<a itemprop="url" class="post-prev" href="#">
+											<span class="text-muted">Previous</span>
+											<h2 class="page-nav-title">Top 10 fashion trend for summer</h2>
+										</a>
+										<a itemprop="url" class="post-next text-end" href="#">
+											<span class="text-muted">Next</span>
+											<h2 class="page-nav-title">Crazy fashion with unique moment</h2>
+										</a>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<div id="post-author-info" class="border-top border-bottom py-4">
+							<div class="row d-flex align-items-center">
+								<div class="col-lg-3">
+									<div class="image-holder">
+										<a itemprop="url" href="#">
+											<img src="images/author-image.jpg" class="img-fluid rounded-circle"
+												alt="author">
+										</a>
+									</div>
+								</div>
+								<div class="col-lg-9">
+									<div class="post-author-content">
+										<div class="element-title d-flex align-items-center gap-3">
+											<h4><a itemprop="url" href="">Anna Younes</a></h4>
+											<span class="author-position"><em>Fashion Designer</em></span>
+										</div>
+										<p>Nascetur libero elementum adipiscing mauris maecenas et magna. Etiam nec,
+											rutrum a diam lacus, nunc integer etiam. Mattis pulvinar non viverra donec
+											pellentesque. Odio mi consequat libero dolor. Porta ut diam lobortis eget
+											leo, lectus. Tortor diam dignissim amet, in interdum aliquet. Magnis dictum
+											et eros purus fermentum, massa ullamcorper sit sollicitudin.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<section id="post-comment" class="mt-5">
+							<div class="container">
+								<div class="row">
+									<div class="comments-wrap">
+										<h3 class="my-3">
+											<span class="count">3</span> Comments
+										</h3>
+										<div class="comment-list">
+											<article class="comment-item py-3 row border-bottom">
+												<div class="col-lg-2">
+													<img src="images/commentor-item1.jpg" alt="default"
+														class="commentor-image rounded-circle img-fluid">
+												</div>
+												<div class="col-lg-10">
+													<div class="author-post">
+														<div class="comment-meta d-flex gap-3">
+															<h5 class="author-name">Lufy carlson</h5>
+															<span class="meta-date">Jul 10</span>
+														</div>
+														<p>Tristique tempis condimentum diam done ullancomroer sit
+															element henddg sit he consequert.Tristique tempis
+															condimentum diam done ullancomroer sit element henddg sit he
+															consequert.</p>
+														<div class="comments-reply">
+															<a href="#">Reply</a>
+														</div>
+													</div>
+													<article class="comment-item pb-3 row child-comments">
+														<div class="col-lg-2">
+															<img src="images/commentor-item2.jpg" alt="default"
+																class="commentor-image rounded-circle img-fluid">
+														</div>
+														<div class="col-lg-10">
+															<div class="author-post">
+																<div class="comment-meta d-flex gap-3">
+																	<h5 class="author-name">Lora leigh</h5>
+																	<span class="meta-date">Jul 10</span>
+																</div>
+																<p>Tristique tempis condimentum diam done ullancomroer
+																	sit element henddg sit he consequert.Tristique
+																	tempis condimentum diam done ullancomroer sit
+																	element henddg sit he consequert.</p>
+																<div class="comments-reply">
+																	<a href="#">Reply</a>
+																</div>
+															</div>
+														</div>
+													</article>
+													<article class="comment-item pb-3 row child-comments">
+														<div class="col-lg-2">
+															<img src="images/commentor-item3.jpg" alt="default"
+																class="commentor-image rounded-circle img-fluid">
+														</div>
+														<div class="col-lg-10">
+															<div class="author-post">
+																<div class="comment-meta d-flex gap-3">
+																	<h5 class="author-name">Natalie dormer</h5>
+																	<span class="meta-date">Jul 10</span>
+																</div>
+																<p>Tristique tempis condimentum diam done ullancomroer
+																	sit element henddg sit he consequert.Tristique
+																	tempis condimentum diam done ullancomroer sit
+																	element henddg sit he consequert.</p>
+																<div class="comments-reply">
+																	<a href="#">Reply</a>
+																</div>
+															</div>
+														</div>
+													</article>
+												</div>
+											</article>
+											<article class="comment-item py-3 row border-bottom">
+												<div class="col-lg-2">
+													<img src="images/commentor-item2.jpg" alt="default"
+														class="commentor-image rounded-circle img-fluid">
+												</div>
+												<div class="col-lg-10">
+													<div class="author-post">
+														<div class="comment-meta d-flex gap-3">
+															<h5 class="author-name">Lora leigh</h5>
+															<span class="meta-date">Jul 10</span>
+														</div>
+														<p>Tristique tempis condimentum diam done ullancomroer sit
+															element henddg sit he consequert.Tristique tempis
+															condimentum diam done ullancomroer sit element henddg sit he
+															consequert.</p>
+														<div class="comments-reply">
+															<a href="#">Reply</a>
+														</div>
+													</div>
+												</div>
+											</article>
+											<article class="comment-item py-3 row">
+												<div class="col-lg-2">
+													<img src="images/commentor-item3.jpg" alt="default"
+														class="commentor-image rounded-circle img-fluid">
+												</div>
+												<div class="col-lg-10">
+													<div class="author-post">
+														<div class="comment-meta d-flex gap-3">
+															<h5 class="author-name">Natalie dormer</h5>
+															<span class="meta-date">Jul 10</span>
+														</div>
+														<p>Tristique tempis condimentum diam done ullancomroer sit
+															element henddg sit he consequert.Tristique tempis
+															condimentum diam done ullancomroer sit element henddg sit he
+															consequert.</p>
+														<div class="comments-reply">
+															<a href="#">Reply</a>
+														</div>
+													</div>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="comment-respond mt-5">
+										<h3>Leave a Comment</h3>
+										<p>Your email address will not be published. Required fields are marked *</p>
+										<form method="post" class="form-group padding-small">
+											<div class="row">
+												<div class="col-lg-12 mb-3">
+													<textarea class="form-control ps-3 pt-3" id="comment" name="comment"
+														placeholder="Write your comment here *"></textarea>
+												</div>
+												<div class="col-lg-6 mb-3">
+													<input class="form-control ps-3" type="text" name="author"
+														id="author" placeholder="Write your full name here *">
+												</div>
+												<div class="col-lg-6">
+													<input class="form-control ps-3" type="email" name="email"
+														id="email" placeholder="Write your e-mail address *">
+												</div>
+												<div class="col-lg-12">
+													<label class="d-flex align-items-center">
+														<input type="checkbox" class="checked-box me-2">
+														<span class="label-body">Save my name, email, and website in
+															this browser for the next time.</span>
+													</label>
+												</div>
+												<div class="col-lg-12 mt-3">
+													<button
+														class="btn btn-lg btn-primary text-uppercase btn-rounded-none w-100"
+														type="submit">Post Comment</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<div class="section-header my-5">
+							<h2 class="section-title">Related Posts</h2>
+						</div><!--section-header-->
+
+						<div class="row">
+							<div class="col-lg-6">
+								<article class="post-item pb-5" data-aos="fade-up">
+
+									<div class="post-image">
+										<img src="images/post-image1.jpg" alt="image" class="post-grid-image img-fluid">
+									</div>
+									<div class="post-meta d-flex gap-3 my-4">
+										<span class="post-category">
+											<svg width="16" height="16" viewBox="0 0 24 24">
+												<use xlink:href="#folder"></use>
+											</svg>
+											Business </span>
+										<span class="meta-day">
+											<svg width="16" height="16" viewBox="0 0 24 24">
+												<use xlink:href="#clock"></use>
+											</svg>12-03-2021 </span>
+									</div>
+									<div class="post-content">
+										<h3 class="post-title fw-medium my-4">
+											<a href="single-post.html">Best rules to follow for achieving business
+												goals</a>
+										</h3>
+										<p>Business migration into the cloud has been one of the most boggling
+											innovations of the last
+											decade. Cloud computing has revolutionized the world of information
+											technology.</p>
+									</div>
+									<a href="single-post.html" class="text-decoration-underline">Read More</a>
+								</article>
+							</div>
+							<div class="col-lg-6">
+								<article class="post-item pb-5" data-aos="fade-up">
+
+									<div class="post-image">
+										<img src="images/post-image2.jpg" alt="image" class="post-grid-image img-fluid">
+									</div>
+									<div class="post-meta d-flex gap-3 my-4">
+										<span class="post-category">
+											<svg width="16" height="16" viewBox="0 0 24 24">
+												<use xlink:href="#folder"></use>
+											</svg>
+											Business </span>
+										<span class="meta-day">
+											<svg width="16" height="16" viewBox="0 0 24 24">
+												<use xlink:href="#clock"></use>
+											</svg>12-03-2021 </span>
+									</div>
+									<div class="post-content">
+										<h3 class="post-title fw-medium my-4">
+											<a href="single-post.html">6 Ways to Improve Your Emotional Health And
+												Maintain A Balanced
+												Life</a>
+										</h3>
+										<p>Business migration into the cloud has been one of the most boggling
+											innovations of the last
+											decade. Cloud computing has revolutionized the world of information
+											technology.</p>
+									</div>
+									<a href="single-post.html" class="text-decoration-underline">Read More</a>
+								</article>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</main>
+
+	</div>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
