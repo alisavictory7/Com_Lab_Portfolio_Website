@@ -125,6 +125,11 @@ p {
   font-size: 18px;
 }
 
+
+
+
+
+
 /* Dropdown */
 .dropdown-menu {
   --bs-dropdown-border-radius: 0;
@@ -899,4 +904,11 @@ img {
 .hovereffect:hover p.icon-links a:first-child {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
+}
+
+
+
+
+.portfolio-text {
+  text-align: justify;
 }
